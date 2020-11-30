@@ -51,9 +51,9 @@
         "subnetPrefix": "176.16.0.0/24",
 
         "jbCustomScriptFileName": "configure-labvm.ps1",
-        "jbCustomScriptUri": "[concat('https://raw.githubusercontent.com/microsoft/MCW-App-modernization/master/Hands-on%20lab/lab-files/ARM-template/', variables('jbCustomScriptFileName'))]",
+        "jbCustomScriptUri": "[concat('https://raw.githubusercontent.com/rfcm83/.NET-Modernization-In-a-Day/master/Hands-on%20lab/lab-files/ARM-template/', variables('jbCustomScriptFileName'))]",
         "sqlCustomScriptFileName": "configure-sqlvm.ps1",
-        "sqlCustomScriptUri": "[concat('https://raw.githubusercontent.com/microsoft/MCW-App-modernization/master/Hands-on%20lab/lab-files/ARM-template/', variables('sqlCustomScriptFileName'))]",
+        "sqlCustomScriptUri": "[concat('https://raw.githubusercontent.com/rfcm83/.NET-Modernization-In-a-Day/master/Hands-on%20lab/lab-files/ARM-template/', variables('sqlCustomScriptFileName'))]",
 
         "dmsName": "[concat('contoso-dms-', uniqueString(resourceGroup().id))]",
         "appServicePlanName": "[concat(resourceGroup().name, '-asp')]",

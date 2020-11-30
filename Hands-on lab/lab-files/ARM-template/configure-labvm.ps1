@@ -11,7 +11,7 @@ function Disable-InternetExplorerESC {
 Disable-InternetExplorerESC
 
 # Download and extract the starter solution files
-Invoke-WebRequest 'https://github.com/microsoft/MCW-App-modernization/archive/master.zip' -OutFile 'C:\MCW.zip'
+Invoke-WebRequest 'https://github.com/rfcm83/.NET-Modernization-In-a-Day/archive/master.zip' -OutFile 'C:\MCW.zip'
 Expand-Archive -LiteralPath 'C:\MCW.zip' -DestinationPath 'C:\MCW' -Force
 
 # Download and install .NET Core 2.2
